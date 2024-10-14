@@ -1642,6 +1642,7 @@ libwbxml
 libwpe
 libx11
 libxaw3d
+libxc
 libxcursor
 libxdmcp
 libxext
