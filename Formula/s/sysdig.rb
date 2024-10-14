@@ -2,11 +2,10 @@ class Sysdig < Formula
   desc "System-level exploration and troubleshooting tool"
   homepage "https://sysdig.com/"
   license "Apache-2.0"
-  revision 7
 
   stable do
-    url "https://github.com/draios/sysdig/archive/refs/tags/0.38.1.tar.gz"
-    sha256 "68085ea118a4209dbde8f1b75584f9f84610b5856e507ffb0703d8add6331132"
+    url "https://github.com/draios/sysdig/archive/refs/tags/0.39.0.tar.gz"
+    sha256 "5b20d95d7bc2a2f482a3359bb2df4dbba7fc4cbf8547dc84256edcc4978f2fd3"
 
     # Update to value of FALCOSECURITY_LIBS_VERSION with
     # VERSION=#{version} && curl -fsSL https://raw.githubusercontent.com/draios/sysdig/$VERSION/cmake/modules/falcosecurity-libs.cmake | grep -o 'set(FALCOSECURITY_LIBS_VERSION "[0-9.]*")' | awk -F'"' '{print $2}'
